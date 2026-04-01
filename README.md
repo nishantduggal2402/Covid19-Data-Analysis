@@ -1,82 +1,77 @@
-🌍 COVID-19 Data Analysis & Insights  
+# 🌍 COVID-19 Data Analysis & Insights  
 
 ## 📌 Project  
+Performed end-to-end analysis of global COVID-19 data using SQL and Tableau to uncover insights on infection trends, mortality impact, and vaccination progress across regions.
 
-Performed an end-to-end analysis of global COVID-19 data using SQL and Tableau to uncover key insights related to infection trends, mortality impact, and vaccination progress across countries and continents.
 
 
 ## 🎯 Business Requirement  
+To analyze global pandemic data and build interactive dashboards that provide insights into infection spread, death rates, vaccination progress, and regional comparisons for better decision-making.
 
-To build a data analytics solution that provides meaningful insights into:
-
-- Infection spread across countries  
-- Death rates and severity of impact  
-- Vaccination progress and coverage  
-- Regional and global comparisons  
-
-This supports better understanding of pandemic patterns and enables data-driven public health decision-making.
 
 
 ## ⚙️ Tools & Technologies  
-
-- MySQL  
-- PostgreSQL  
+- MySQL, PostgreSQL  
 - SQL (CTEs, Joins, Aggregations, Window Functions)  
-- Tableau (Data Visualization & Dashboarding)  
+- Tableau  
 
 
-## 📂 Dataset  
+## 📊 Key Insights  
 
-The dataset consists of two CSV files (~85k rows each and more than 25 columns each):
+- Europe recorded the highest death rate relative to population, followed by the Americas, while Africa reported the lowest.  
 
-- coviddeaths4.csv → Cases, deaths, population, locations  
-- covidvaccinations4.csv → Vaccination data across countries  
+- Countries like the USA, France, and Spain had the highest infection rates, whereas Finland and Norway showed lower spread.  
 
+- The USA and Israel led in vaccination coverage, indicating strong rollout strategies.  
 
-## 🔍 SQL Techniques Used  
+- Globally, ~2% of infected individuals died, reflecting the large-scale impact of the pandemic.  
 
-- Joins (combining deaths & vaccination datasets)  
-- CTEs (Common Table Expressions)  
-- Aggregations (SUM, COUNT, AVG)  
-- Window Functions  
-- Data Cleaning (handling nulls, type conversion)  
-- Group By & Filtering  
+- Significant regional disparities highlight differences in healthcare infrastructure and response effectiveness.  
 
 
-## 📊 Tableau Features Used  
+## 🚀 Business Impact  
 
-- Data modeling using logical (relationships) and physical (joins) layers  
-- Calculated fields and FIXED LOD expressions for KPI computation  
-- Interactive dashboards with maps, filters, and trend visualizations  
+- Enabled identification of high-risk regions, supporting better healthcare planning and resource allocation.  
+
+- Highlighted vaccination gaps, helping prioritize regions for faster rollout and intervention.  
+
+- Provided comparative analysis across countries, aiding policymakers in benchmarking pandemic response strategies.  
+
+- Supported data-driven decision-making through interactive dashboards and global trend analysis.  
 
 
-## 📈 Key Insights  
+## 📊 Dashboard Highlights  
 
-- Europe recorded the highest death rate relative to population, followed by North and South America, while Africa reported the lowest.  
-- Countries like the USA, France, and Spain showed the highest infection rates, whereas Finland and Norway had significantly lower infection penetration.  
-- The USA and Israel led in vaccination coverage, reflecting strong healthcare infrastructure and efficient rollout strategies.  
-- Globally, approximately 2% of infected individuals died, highlighting the large-scale impact of the pandemic.  
-- Significant disparities across regions indicate inequality in healthcare access and pandemic response effectiveness.  
+- Global infection trends and spread patterns  
+- Death rate analysis across regions  
+- Vaccination progress by country  
+- Continent-level comparison  
 
 
 ## 📁 Project Structure  
+- `data.zip` – Contains both COVID-19 datasets (deaths & vaccinations)  
+- `Covid19-Analysis.sql` – SQL queries for cleaning and analysis  
+- `Covid19_Insights.twbx` – Tableau dashboard  
+- `Image_Dashboard.png` – Dashboard preview  
 
-- data.zip → File containing both COVID-19 CSV datasets  
-- Covid19-Analysis.sql → SQL script for data cleaning and analysis  
-- Covid19_Insights.twbx → Tableau dashboard file  
-- Image_Dashboard.png → Dashboard preview image  
+
+## 📂 Dataset  
+Includes two datasets (~85K rows each):  
+- COVID deaths data (cases, deaths, population)  
+- COVID vaccination data  
 
 
-## 📊 Tableau Dashboard  
+## 🔍 SQL Techniques Used  
+- Joins, CTEs, Window Functions  
+- Aggregations (SUM, AVG, COUNT)  
+- Data Cleaning (null handling, type conversion)  
 
-The Tableau dashboard provides interactive insights on:
 
-- Global infection trends  
-- Death rates across regions  
-- Vaccination progress by country  
-- Comparative continent-level analysis  
+## 📊 Tableau Features  
+- Data modeling (relationships & joins)  
+- Calculated fields & FIXED LOD expressions  
+- Interactive dashboards with filters and maps  
 
 
 ## ✅ Conclusion  
-
-This project demonstrates how SQL and Tableau can be integrated to transform large-scale datasets into meaningful insights. It highlights the importance of data analytics in understanding global crises and supports informed decision-making in public health and policy.
+This project demonstrates how SQL and Tableau can transform large-scale global data into actionable insights, supporting informed decision-making in public health and policy.
