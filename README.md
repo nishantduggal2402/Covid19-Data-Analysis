@@ -70,7 +70,7 @@ Includes two datasets (~85K rows and more than 25 columns each):
 ## 📊 Tableau Features  
 - Data modeling (relationships & joins)  
 - Calculated fields & FIXED LOD expressions  
-- Interactive dashboards with filters and maps  
+- Interactive dashboard with filters and maps  
 
 
 ## ✅ Conclusion  
